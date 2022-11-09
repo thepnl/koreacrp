@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+
+<div class="flex min-h-full flex-col justify-center py-6 sm:px-6 lg:px-8">
+  <!-- 타임라인 -->
+  <div class="px-6">
+    <!-- 위치에 따라 위치명 변경 -->
+    <p class="text-lg font-medium text-gray-900">가입완료</p> 
+    <div class="mt-6" aria-hidden="true">
+      <div class="overflow-hidden rounded-full bg-gray-200">
+        <!-- 위치에 따라 %변경, 본인인증 33.3%, 회원가입 66.6%, 가입완료 100%-->
+        <div class="h-2 rounded-full bg-blue-600" style="width: 100%"></div>
+      </div>
+      <div class="mt-6 hidden grid-cols-3 text-sm font-medium text-gray-600 sm:grid">
+        <!-- 현 위치는 색생 text-Sky-600으로 변경-->
+        <div class="text-center text-blue-600">본인인증</div>
+        <div class="text-center text-blue-600">회원가입</div>
+        <div class="text-center text-blue-600">가입완료</div>
+      </div>
+    </div>
+  </div>
+  <div class="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
+    <div class="bg-white py-8 px-4 shadow sm:rounded-lg sm:px-10">
+      <h2 class="text-center text-3xl font-bold tracking-tight text-gray-900">가입완료</h2>
+      <p class="my-6 text-center text-md tracking-tight text-gray-900">
+        당원 신청 완료되었습니다! 감사합니다</p>
+      <div>
+        <!-- 당비납부하러 가기 > 링크로 이동: https://www.ihappynanum.com/Nanum/api/JGATA800JM -->
+        <button type="submit" 
+        
+        class="flex w-full justify-center rounded-md border border-transparent bg-blue-600 py-6 px-4 text-2xl font-medium text-white shadow-sm hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-Sky-500 focus:ring-offset-2">
+        당비납부하러 가기
+      
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 ml-2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12.75 15l3-3m0 0l-3-3m3 3h-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+        
+         
+        </button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- 풋터 섹션 -->
+<footer class="text-center text-white" style="background-color: #0a4275; bottom: 0px !important; margin-top: 28%;">
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.2);">
+    <p style="text-align: center; padding-top: 10px; color: #f2f2f2; font-size: 12px">
+      자유통일당, 서울특별시 영등포구 국회대로 70길 15-1, 극동VIP 914호 <br>
+      | Tel.1544-5556 | Fax. 070-7611-6248 | E-mail. info@koreacrp.com | 부대표 : 고영일<br>
+      고유번호 : 219-82-61344 <br>
+      <b>Copyright @자유통일당 Corp. All rights reserved.</b>
+  </p>
+  </div>
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2022 Copyright: 자유통일당
+  </div>
+</footer>
+
+
+</body>
+</html>
